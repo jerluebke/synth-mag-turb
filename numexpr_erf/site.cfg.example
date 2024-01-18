@@ -1,0 +1,17 @@
+# if setup does not find the MKL or does not use the configuration, copy this
+# file to "site.cfg" and edit the paths according to your installation of the
+# Intel MKL.
+
+# Example for Intel(R) MKL 2018 on Linux
+# [mkl]
+# library_dirs = /opt/intel/compilers_and_libraries_2018/linux/mkl/lib/intel64
+# include_dirs = /opt/intel/compilers_and_libraries_2018/linux/mkl/include
+# libraries = mkl_rt
+
+
+# Example for Intel(R) oneAPI MKL on Windows x64
+# Please note that the valid os.pathsep is ';' on Windows and ':' on Linux
+[mkl]
+include_dirs=C:/Program Files (x86)/Intel/oneAPI/mkl/latest/include
+library_dirs=C:/Program Files (x86)/Intel/oneAPI/mkl/latest/lib/intel64
+libraries=mkl_rt

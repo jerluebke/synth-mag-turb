@@ -1,0 +1,9 @@
+jupyter
+matplotlib
+numpy
+scipy
+cython
+tables
+pyfftw
+jinja2
+cmasher
